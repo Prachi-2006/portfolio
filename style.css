@@ -1,0 +1,200 @@
+.img{
+    position: relative;
+    left: 45px;
+    /* border-color:rgb(20, 19, 19); */
+    border-style: solid;
+    border: 2px;
+}
+.bold{
+    font-weight: bolder;
+}
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #9d9595;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* img.img {
+    border-radius: 50%;
+    border: 3px solid #333;
+    margin-top: 20px;
+    height: 150px;
+    width:100px;
+} */
+.img {
+    border-radius: 50%;      
+    border: 3px solid #968b8b; 
+    /* margin-top: 20px;
+    width: 100px;            
+    height: 150px;           
+    object-fit: cover;       */
+}
+
+
+nav a {
+    display: inline-block;
+    margin: 10px 15px;
+    text-decoration: none;
+    color: #373535;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+aside {
+    text-align: center;
+    margin-top: 20px;
+}
+
+aside a {
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1.1em;
+}
+
+aside a:hover {
+    color: #0056b3;
+}
+
+/* Section Titles */
+h2.bold {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #302f2f;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* About Section */
+#About {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#About pre {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+hr {
+    margin-top: 20px;
+    border: 1px solid #eee;
+}
+
+/* Education Section */
+section#Education {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Projects Section */
+section#Projects {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+dl {
+    margin-top: 20px;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+dd {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+dd big {
+    font-size: 1.2em;
+    color: #007BFF;
+}
+
+/* Other Details Table */
+section#other_details {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    font-size: 1.1em;
+    color: #333;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+td a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+td a:hover {
+    color: #0056b3;
+}
+
+
+
+
+
+
+
